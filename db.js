@@ -8,10 +8,10 @@ const User = mongoose.model('User', {      //model
     uname: String,
     psw: String,
     balance: Number,
-    transaction:[]
+    transaction: []
 })
 
-
+ 
 
 module.exports = {
     User
